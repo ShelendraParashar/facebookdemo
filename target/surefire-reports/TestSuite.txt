@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.2 s <<< FAILURE! - in TestSuite
+com.test.Login.testLogin  Time elapsed: 6.886 s  <<< FAILURE!
+java.lang.AssertionError: expected:<https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110> but was:<http://facebook.com>
+	at com.test.Login.testLogin(Login.java:30)
+
