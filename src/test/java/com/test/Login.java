@@ -29,7 +29,7 @@ public class Login {
 
 		driver.findElement(By.xpath("//*[@data-testid=\"royal_login_button\"]")).click();
 
-		AssertJUnit.assertEquals(driver.getCurrentUrl(), "http://facebook.com");
+		AssertJUnit.assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/");
 
 	}
 
